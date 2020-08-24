@@ -52,24 +52,24 @@ print(lista)
 
 # Pistelista
 
-Kierrokset = True
-x = []
-y = []
-lisaaInput = ""
-while Kierrokset:
-    lisaaInput = input("Anna pelaaja: ")
-    if lisaaInput == "lopeta":
-        Kierrokset = False
+# Kierrokset = True
+# x = []
+# y = []
+# lisaaInput = ""
+# while Kierrokset:
+#     lisaaInput = input("Anna pelaaja: ")
+#     if lisaaInput == "lopeta":
+#         Kierrokset = False
 
-    else:
-        x.append(lisaaInput)
-        varY = input("Anna pisteet")
-        print(len(varY))
-        if len(varY)>2:
-            y.append(str(0)) + "" + str(varY)
-        else:
-            y.append(varY)
+#     else:
+#         x.append(lisaaInput)
+#         varY = input("Anna pisteet")
+#         print(len(varY))
+#         if len(varY)>2:
+#             y.append(str(0)) + "" + str(varY)
+#         else:
+#             y.append(varY)
 
-esiintymat =                   
+# esiintymat =                   
 
 
