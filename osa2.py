@@ -32,10 +32,7 @@ def main():
         naytto.blit(kuva, (x, y))
         pygame.display.flip()
         #pygame.display.flip()
-        #
-
-        
-        
-            
+        # oli osa2
+ 
 
 main()
