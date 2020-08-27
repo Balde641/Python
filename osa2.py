@@ -7,6 +7,8 @@ def main():
     while True:
         tapahtuma = pygame.event.poll()
         if tapahtuma.type == pygame.QUIT:
+            running = False
             break
 
 main()
+
