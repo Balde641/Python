@@ -73,4 +73,3 @@ Kierrokset = 0
 while(Kierrokset < pituusEsiintymat):
     print(x[esiintymat[Kierrokset]] + ", " + str(y[esiintymat[Kierrokset]]))
     Kierrokset += 1
-
