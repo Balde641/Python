@@ -16,10 +16,12 @@ def piirtaminen(naytto, hahmot):
     pygame.display.flip()
 
 def kontrolli(hahmot, tapahtuma):
-    print("Kontrolli")
+    if tapahtuma.type == pygame.KEYDOWN:
+        if tapahtuma.key == pygame.K_SPACE:
+            hahmot[0][3] = True
 
 def main():
-    kissahahmo = ["cat.png", 100, 100, True]
+    kissahahmo = ["mario.jpg", 100, 100, False]
     hahmot = [kissahahmo]
     while True:
         tapahtuma = pygame.event.poll()
