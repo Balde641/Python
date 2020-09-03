@@ -15,7 +15,8 @@ def piirtaminen(naytto, hahmot):
             naytto.blit(kuva, (hahmo[1], hahmo[2]))
     pygame.display.flip()
 
-def kontrolli(hahmot, tapahtuma):
+def kontrolli(hahmot, tapahtuma, vihollinen):
+    if vihollinen = False
     if tapahtuma.type == pygame.KEYDOWN:
         if tapahtuma.key == pygame.K_SPACE:
 
@@ -26,10 +27,11 @@ def kontrolli(hahmot, tapahtuma):
             if päähahmo[1] < 570:
                 päähahmo[1] += 10
 
+            
         elif tapahtuma.key == pygame.K_LEFT:
             päähahmo = hahmot[1]
             if päähahmo[1] > 5:
-                päähahmo[1] -= 10    
+                päähahmo[1] -= 10
 
         elif tapahtuma.key == pygame.K_UP:
             päähahmo = hahmot[1]
@@ -46,8 +48,8 @@ def kontrolli(hahmot, tapahtuma):
 
 
 def main():
-    kissahahmo = ["marioo.png", 50, 50, False]
-    kissahahmo1 = ["gun.png", 500, 50, False]
+    kissahahmo = ["gun.png", 50, 50, False]
+    kissahahmo1 = ["marioo.png", 500, 50, False]
     hahmot = [kissahahmo, kissahahmo1]
 
     while True:
