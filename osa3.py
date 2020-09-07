@@ -46,8 +46,8 @@ def kontrolli(hahmot, tapahtuma):
 
 
 def main():
-    kissahahmo = ["marioo.png", 50, 50, False]
-    kissahahmo1 = ["gun.png", 500, 50, False]
+    kissahahmo = ["gun.png", 50, 50, False]
+    kissahahmo1 = ["mario.png", 500, 50, False]
     hahmot = [kissahahmo, kissahahmo1]
 
     while True:
