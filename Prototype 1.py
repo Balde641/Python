@@ -15,8 +15,8 @@ class Hunter(pygame.sprite.Sprite):
     def __init__(self, position):
         super(Hunter, self).__init__()
 
-        self.image = pygame.Surface((32, 32))
-        self.image.fill(pygame.Color('blue'))
+        self.image = pygame.Surface((64, 64))
+        self.image.fill(pygame.Color('red'))
         self.rect = self.image.get_rect(topleft=position)
         self.position = pygame.math.Vector2(position)
         self.speed = 2
@@ -38,7 +38,7 @@ class Player(pygame.sprite.Sprite):
     def __init__(self, position):
         super(Player, self).__init__()
 
-        self.image = pygame.Surface((32, 32))
+        self.image = pygame.Surface((64, 64))
         self.image.fill(pygame.Color('green'))
         self.rect = self.image.get_rect(topleft=position)
 
