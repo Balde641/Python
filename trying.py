@@ -26,11 +26,10 @@ def kontrolli(hahmot, tapahtuma):
             if päähahmo[1] < 570:
                 päähahmo[1] += 10
 
-            
         elif tapahtuma.key == pygame.K_LEFT:
             päähahmo = hahmot[1]
             if päähahmo[1] > 5:
-                päähahmo[1] -= 10
+                päähahmo[1] -= 10    
 
         elif tapahtuma.key == pygame.K_UP:
             päähahmo = hahmot[1]
@@ -47,8 +46,8 @@ def kontrolli(hahmot, tapahtuma):
 
 
 def main():
-    kissahahmo = ["bear.jpg", 50, 50, False]
-    kissahahmo1 = ["player.jpg", 500, 50, False]
+    kissahahmo = ["gun.png", 50, 50, False]
+    kissahahmo1 = ["mario.png", 500, 50, False]
     hahmot = [kissahahmo, kissahahmo1]
 
     while True:
